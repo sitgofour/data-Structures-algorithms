@@ -1,4 +1,9 @@
 
+// While this code doesn't showcase original thinking, it is something that I am proud of.
+//      It is a milestone of sorts, to be able to not only see and understand, but to 
+//      implement from scratch a solution to problem. To go from basically no experience
+//      with coding to being able to work with and interpret code like this, is an achievement I take pride in.
+
 function dfsPreOrder(){
     let data = [];
 
