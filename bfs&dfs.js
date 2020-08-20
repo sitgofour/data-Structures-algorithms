@@ -52,3 +52,29 @@ function bfs(){
     return data;
 
 }
+
+
+function depthFirstSearch(root) {
+
+    if(root === null) {
+        return null;
+    }
+
+    result = []
+
+    function traverse(node) {
+        if (node.left) {
+            traverse(node.left);
+        }
+
+        result.append(node.val)
+
+        if (node.right) {
+            traverse(node.right);
+        }
+    }
+
+
+    traverse(root);
+    return result;
+}
