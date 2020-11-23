@@ -1,4 +1,9 @@
 
+// While this code doesn't showcase original thinking, it is something that I am proud of.
+//      It is a milestone of sorts, to be able to not only see and understand, but to 
+//      implement from scratch a solution to problem. To go from basically no experience
+//      with coding to being able to work with and interpret code like this, is an achievement I take pride in.
+
 function dfsPreOrder(){
     let data = [];
 
@@ -52,6 +57,7 @@ function bfs(){
     return data;
 
 }
+<<<<<<< HEAD
 
 
 function depthFirstSearch(root) {
@@ -78,3 +84,5 @@ function depthFirstSearch(root) {
     traverse(root);
     return result;
 }
+=======
+>>>>>>> 909458ad44013bf84bf865d5a7b3ebb1e799da6f
